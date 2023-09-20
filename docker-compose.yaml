@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  chall7:
+    build: .
+    volumes:
+      - ./ctf:/var/www/html
+    ports:
+      - "81:80"
