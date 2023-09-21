@@ -1,9 +1,7 @@
 version: '2'
 
 services:
-  chall7:
-    build: .
-    volumes:
-      - ./ctf:/var/www/html
+  chall1:
+    image: httpd:latest
     ports:
       - "81:80"
