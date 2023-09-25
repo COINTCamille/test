@@ -4,4 +4,4 @@ services:
   web:
     image: nginx1.19_custom
     ports:
-      - "8080:80"
+      - "83:80"
