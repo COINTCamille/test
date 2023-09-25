@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    image: apache_web2
+    ports:
+      - "82:80"
