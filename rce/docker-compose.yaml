@@ -1,7 +1,0 @@
-version: '3'
-
-services:
-  web:
-    image: nginx1.19_custom
-    ports:
-      - "83:80"
