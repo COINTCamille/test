@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    image: nginx_web3
+    ports:
+      - "83:80"
